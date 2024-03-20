@@ -6,3 +6,22 @@ It can work with password only  or public and private keys.
   - [x] password encryption
   - [ ] signing
   - [ ] verification
+  
+
+  -----------------------------------
+
+  #### Usage
+
+  compile with:
+
+  ```
+  go build main.go
+
+  ```
+
+  syntax:
+
+  ```
+	./main -pub <public_key> -priv <private_key> -action <encrypt/decrypt/encrypt_wk/decrypt_wk> -pass <password> -in <input_file> -out <output_file>
+
+  ```
