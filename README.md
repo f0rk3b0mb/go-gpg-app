@@ -23,6 +23,6 @@ It can work with password only  or public and private keys.
   syntax:
 
   ```
-	./main -pub <public_key> -priv <private_key> -action <encrypt/decrypt/encrypt_wk/decrypt_wk> -pass <password> -in <input_file> -out <output_file>
+	./main -pub <public_key> -priv <private_key> -signature <signature_file> -action <encrypt/encrypt_wk/decrypt/decrypt_wk/gen_key/verify/sign> -pass <password> -in <input_file> -out <output_file>
 
   ```
